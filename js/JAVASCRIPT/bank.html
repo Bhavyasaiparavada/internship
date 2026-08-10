@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{
+            background-color:rgb(157, 196, 209);
+        }
+        .container{
+            display:flex;
+            gap: 40px;
+            height: 90vh;
+            background-color:rgb(157, 196, 209);
+        
+        }
+        .block,.block2{
+            border: 2px solid;
+            height: 40vh;
+            width: 40%;
+            margin:200px;
+            border-radius: 10%;
+            padding: 30px;
+            justify-content: space-evenly;
+            background-color: lightblue ;
+            
+        }
+        .block:hover{
+        background-color: azure;
+        box-shadow:0px 15px 15px grey ;
+        }
+        .block2:hover{
+        background-color: azure;
+        box-shadow:0px 15px 15px grey ;
+        }
+        button{
+            margin-top: 30px;
+            height:50px;
+            width: 100px;
+            border-radius: 10%;
+            background-color: rgb(104, 172, 195);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="con">
+   <center><h1> Balance:<input type="text" id="cur"></h1></center> 
+   </div>
+    <div class="container">
+        <div class="block">
+           <center> <h1>Withdrawl</h1></center>
+           Withdrawl amount:<input type="text" id="with"><br><br>
+          current Bal:<input type="text" id="bal"><br><br>
+           <center><button onclick="withdraw()">withdrawl</button></center>
+           </div>
+           <div class="block2">
+           <center> <h1>Deposit</h1></center>
+            Deposit amount:<input type="text" id="dep"><br><br>
+            Current Bal:<input type="text" id="bal"><br><br>
+             <center> <button onclick="deposit()">Deposit</button></center>
+           </div>
+    </div>
+
+</body>
+</html>

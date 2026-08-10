@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let num=121;
+       let r=0;
+       let sum=0;
+       num2=num;
+      while(num>0){
+        r=num%10;
+        sum=sum*10+r;
+        num=Math.floor(num/10);
+      }
+      if(num2==sum){
+        document.write("it is a palindrome number");
+      }
+    </script>
+</body>
+</html>
