@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function f1(...num){
+            document.write("rest parameters <br>")
+            document.write(num);
+            document.write("<br>")
+        }
+        f1(10,"hi",30.4,40,50);
+        document.write("spread parameters <br>")
+        a=[10,20,30,40];
+        document.write(...a);
+        
+    </script>
+</body>
+</html>
