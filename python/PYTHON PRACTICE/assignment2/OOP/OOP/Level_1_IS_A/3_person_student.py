@@ -1,0 +1,12 @@
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+
+class Student(Person):
+    def study(self):
+        print(self.name, "is studying")
+
+
+student = Student("Asha")
+student.study()

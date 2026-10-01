@@ -1,0 +1,5 @@
+python is fun.
+
+file handling is fun.
+python is simple.
+file handling is fun.

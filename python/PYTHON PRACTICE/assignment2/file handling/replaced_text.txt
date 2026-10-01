@@ -1,0 +1,5 @@
+Python is useful.
+
+File handling is useful.
+Python is simple.
+File handling is useful.

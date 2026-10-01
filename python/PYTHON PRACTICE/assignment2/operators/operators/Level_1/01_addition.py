@@ -1,0 +1,4 @@
+﻿# 1. Write a program to accept two numbers and perform addition.
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print("Sum =", a + b)

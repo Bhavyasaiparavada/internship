@@ -1,0 +1,16 @@
+Level 1: Sets
+Create a set containing 5 fruits and print all elements.
+Create a set of numbers and find its length.
+Create a set and add a new element using add().
+Create a set and add multiple elements using update().
+Create a set and remove a specific element using remove().
+Create a set and remove a specific element using discard().
+Create a set and remove an element using pop().
+Create a set of numbers and check whether a particular number exists.
+Create two sets and find their union.
+Create two sets and find their intersection.
+Create two sets and find their difference.
+Create two sets and find their symmetric difference.
+Create two sets and check whether one set is a subset of another set.
+Create two sets and check whether one set is a superset of another set.
+Create a list containing duplicate values and convert it into a set to remove duplicates.

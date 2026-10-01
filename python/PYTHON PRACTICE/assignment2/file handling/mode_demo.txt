@@ -1,0 +1,4 @@
+First line
+Second line
+Added with append mode
+This line shows append mode

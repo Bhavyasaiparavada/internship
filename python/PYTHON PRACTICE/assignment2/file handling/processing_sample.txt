@@ -1,0 +1,5 @@
+Python File Practice
+Python is EASY.
+I like python programs.
+
+File handling is useful in Python.
